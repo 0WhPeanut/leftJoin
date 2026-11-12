@@ -1,0 +1,37 @@
+1:
+
+O LEFT JOIN é um comando SQL utilizado para combinar dados de duas tabelas relacionadas.
+Ele retorna todos os registros da tabela da esquerda, mesmo que não existam registros correspondentes na tabela da direita, e
+quando não existe correspondência, os campos da segunda tabela aparecem como NULL.
+No exemplo do banco de dados mercado, podemos utilizar o LEFT JOIN para relacionar os clientes com as lojas onde realizaram compras
+
+2:
+
+Vantagens:
+
+    Mostra todos os registros da primeira tabela.
+    Permite identificar clientes que não realizaram compras.
+    Facilita a combinação de informações de diferentes tabelas.
+    Ajuda a encontrar registros que não possuem correspondência.
+
+Desvantagens:
+
+    Pode retornar valores NULL quando não existem correspondências.
+    Pode gerar resultados maiores, dependendo da quantidade de registros.
+    Consultas com muitas tabelas podem ficar mais complexas.
+    Pode apresentar informações desnecessárias quando queremos somente registros correspondentes.
+
+8:
+
+principal diferença está na maneira como os dois comandos retornam os registros das tabelas.
+
+LEFT JOIN:
+
+    Retorna todos os registros da tabela da esquerda.
+    Mesmo que não exista correspondência na tabela da direita.
+    Quando não existe correspondência, apresenta NULL.
+
+INNER JOIN:
+
+    Retorna somente os registros que possuem correspondência nas duas tabelas.
+    Não apresenta registros sem correspondência.
